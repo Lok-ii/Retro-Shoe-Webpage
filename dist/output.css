@@ -538,6 +538,36 @@ video {
   width: 100%;
 }
 
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .absolute {
   position: absolute;
 }
@@ -578,6 +608,10 @@ video {
   height: 100vh;
 }
 
+.h-\[0\%\] {
+  height: 0%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -590,12 +624,48 @@ video {
   width: 100%;
 }
 
-.max-w-xl {
-  max-width: 36rem;
+.w-\[9\%\] {
+  width: 9%;
 }
 
-.flex-shrink {
-  flex-shrink: 1;
+.w-\[\%\] {
+  width: %;
+}
+
+.w-\[2\%\] {
+  width: 2%;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
+.w-\[25\%\] {
+  width: 25%;
+}
+
+.w-\[3\%\] {
+  width: 3%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[99\] {
+  width: 99;
+}
+
+.w-\[99\%\] {
+  width: 99%;
+}
+
+.max-w-xl {
+  max-width: 36rem;
 }
 
 .flex-col {
@@ -604,6 +674,10 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 
 .items-start {
@@ -794,4 +868,154 @@ video {
 .hover\:shadow-teal-500:hover {
   --tw-shadow-color: #14b8a6;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+@media (min-width: 640px) {
+  .sm\:absolute {
+    position: absolute;
+  }
+
+  .sm\:h-7 {
+    height: 1.75rem;
+  }
+
+  .sm\:h-72 {
+    height: 18rem;
+  }
+
+  .sm\:h-\[\] {
+    height: ;
+  }
+
+  .sm\:h-\[3\] {
+    height: 3;
+  }
+
+  .sm\:h-\[35\] {
+    height: 35;
+  }
+
+  .sm\:h-\[35\%\] {
+    height: 35%;
+  }
+
+  .sm\:h-\[6\] {
+    height: 6;
+  }
+
+  .sm\:h-\[65\] {
+    height: 65;
+  }
+
+  .sm\:h-\[65\%\] {
+    height: 65%;
+  }
+
+  .sm\:h-\[8\] {
+    height: 8;
+  }
+
+  .sm\:h-\[80\] {
+    height: 80;
+  }
+
+  .sm\:h-\[80\%\] {
+    height: 80%;
+  }
+
+  .sm\:w-\[\] {
+    width: ;
+  }
+
+  .sm\:w-\[30\] {
+    width: 30;
+  }
+
+  .sm\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .sm\:w-\[10\] {
+    width: 10;
+  }
+
+  .sm\:w-\[10\%\] {
+    width: 10%;
+  }
+
+  .sm\:w-\[0\%\] {
+    width: 0%;
+  }
+
+  .sm\:w-\[\%\] {
+    width: %;
+  }
+
+  .sm\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .sm\:w-\[2\%\] {
+    width: 2%;
+  }
+
+  .sm\:w-\[28\%\] {
+    width: 28%;
+  }
+
+  .sm\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .sm\:items-end {
+    align-items: flex-end;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
+  .sm\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .sm\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .sm\:pr-24 {
+    padding-right: 6rem;
+  }
+
+  .sm\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .sm\:pr-8 {
+    padding-right: 2rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
 }
